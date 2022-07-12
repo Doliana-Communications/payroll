@@ -1,0 +1,33 @@
+.main-footer {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  margin-top: 3rem;
+  background: black;
+
+  ul,
+  li,
+  p,
+  a {
+    background: inherit;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10vh;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+}
